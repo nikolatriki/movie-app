@@ -1,5 +1,7 @@
 <h1>Movie app</h1>
 <p>This is the list of all the movies in our database:</p>
-<p><% @movies.each do |n|%></p>
-<ul><%= n.title %></ul>
-<p><% end%></p>
+<ul>
+<% @movies.each do |n|%>
+<li><%= n.title %></li>
+<% end%>
+</ul>
